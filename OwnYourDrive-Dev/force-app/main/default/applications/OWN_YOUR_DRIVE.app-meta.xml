@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#04080B</headerColor>
+        <logo>Screenshot_20261008_194756</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>This is the app which is responsible for conatining all the object and maintainance of the OWN YOUR DRIVE.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>OWN YOUR DRIVE</label>
+    <navType>Console</navType>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>Customer_Verification__c</tabs>
+    <tabs>Slot_Booking__c</tabs>
+    <tabs>Vehicle_Service__c</tabs>
+    <tabs>Service_History__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>OWN_YOUR_DRIVE_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Customer_Verification__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Service_History__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Slot_Booking__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Vehicle_Service__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Account</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Contact</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Opportunity</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>
